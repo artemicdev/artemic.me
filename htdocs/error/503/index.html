@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>artemic.me</title>
+<link href="https://fonts.googleapis.com/css?family=Source%20Sans%20Pro" rel="stylesheet">
+<link href="/main.css" rel="stylesheet">
+<link rel="icon" type="image/png" href="/img/a.png">
+</head>
+
+<body>
+<div id="navbar">
+  <a href="https://artemic.me"><img src="/img/headerlogo.png" width=36 height=36 alt="artemic.me website"></a>
+  <!--<a class="em2"><b>Site experiencing intermittent service interruptions</b></a>-->
+</div>
+
+<div class="content">
+
+<table>
+  <tr>
+    <td><img src="/img/a.png" height=150 alt="artemic.me site logo"></td>
+    <td><p style="font-size: 40pt;font-weight: bold;font-style: italic;">artemic.me</p></td>
+  </tr>
+</table>
+
+<div class="em2">
+<p><b>Service unavailable</b> (HTTP error 503)</p>
+</div>
+<p style="text-align: center;">Something went wrong.</p>
+<p style="text-align: center;">The server is down for maintenance or overloaded. Please try again in a few minutes.</p>
+<p style="text-align: center;">Click <a href="https://artemic.me">here</a> to go to the homepage, or use your browser's 'back' button.</p>
+
+</div>
+
+<div class="footer">
+  <p>© 2021 artemic.me</p>
+</div>
+
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+</body>
+
+</html> 

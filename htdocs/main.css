@@ -1,0 +1,70 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-size: 20px;
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+#navbar {
+  background-color: #007BBF;
+}
+
+#navbar a {
+  display: inline-block;
+  color: #FFFFFF;
+  padding: 5px 10px;
+  font-size: 15pt;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.content {
+  padding: 0px 16px;
+  flex: 1 0 auto;
+}
+
+.sticky + .content {
+  padding-top: 51px;
+}
+
+table, td {
+  margin: auto;
+  border: 0px;
+}
+
+.em1 {
+  width: 100%;
+  padding: 5px 0px 5px 0px;
+  background-color: #3A3A3A;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+
+.em2 {
+  width: 100%;
+  padding: 5px 0px 5px 0px;
+  background-color: #FF9900;
+  color: black;
+  text-align: center;
+  font-size: 20px;
+}
+
+.footer {
+  flex-shrink: 0;
+  width: 100%;
+  background-color: #3A3A3A;
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  overflow: hidden;
+}
